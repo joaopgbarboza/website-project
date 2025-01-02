@@ -1,0 +1,863 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style the navigation bar */
+
+header {
+  position: relative;
+  background-color: #fff;
+   
+}
+
+  a {
+    text-decoration: none;
+    color: #45214a;
+    transition: 0.5s ease;
+    
+  }
+
+   /* Style the active navigation link */
+   a:hover {
+    color: #8c00ff;
+    
+    
+  } 
+
+  .logo {
+    display: flex;
+    transform:scale(60%);
+    
+
+ }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    height: 20%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+ 
+  
+
+  /* Style the navigation links */
+  .menu {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    gap: 3rem;
+    font-size: 1.2rem;
+  }
+
+  
+ 
+
+  .line {
+    content: '';
+    min-width: 100%;
+    height: 3px;
+    background-color: #45214a;
+    display: flex;
+  }
+
+ 
+
+  /* Style the main content */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+
+
+  /* Style the section boxes */
+  .section1 {
+    flex-basis: calc(100%);
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    height: 630px;
+    background-image: url(./assets/harry-shelton-pPxhM0CRzl4-unsplash.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  
+
+  .text1 {
+    align-items: right;
+    padding: 1rem;
+    padding-left: 5rem;
+    font-size: 1.4rem;
+    max-width: 1200px;
+    color: #45214a;
+  }
+
+  p {
+    color: #333;
+  }
+
+  .line2 {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #45214a;
+    display: flex;
+  }
+
+  .line3 {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #45214a;
+    display: flex;
+    margin: 1rem auto;
+    margin-bottom: -25px;
+  }
+
+  .section2 {
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    margin: auto 0;
+    color: #fff;
+  
+  }
+
+  .title2{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 1.5rem;
+    color: #45214a;
+
+  }
+
+  .box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
+    width: 100%;
+    height: 550px;
+    color: #333;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    grid-gap: 13px;
+  }
+
+  .card{
+    position: relative;
+    height: 330px;
+    box-shadow: 0 8px 8px rgba(0, 0 ,0 ,0.1);
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+
+
+
+  .card p  {
+    line-height: 1.4rem;
+    padding-top: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .number{
+    font-size: 3rem;
+    display: flex;
+    font-weight: 900;
+    color: #e3e3e3;
+    margin-bottom: -20px;
+  }
+
+  .box-title1{
+    color: #45214a;
+  }
+
+  .box-title2{
+    color: #323050;
+  }
+
+  .box-title3{
+    color: #21445b;
+  }
+
+  .box-title4{
+    color: #1a6566;
+  }
+
+  /* Style the section3 */
+
+  .section3 {
+    background-color: #45214a;
+    width: 100%;
+    margin: auto 0;
+    color: #fff;
+    justify-content: center;
+    
+  }
+
+  .container-section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  .title3 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+
+  .line4 {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .subtitle3 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    
+  }
+
+  .subtitle3 p {
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    max-width: 320px;
+    padding-right: 25px;
+    padding-left: 10px;
+    
+  }
+
+
+  .text-section3 h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }  
+
+  .img-icon {
+    padding: 15px;
+    float: left;
+    filter: drop-shadow( 7px 7px 10px rgb(44, 0, 39, 0.6));
+  }
+
+  .subtitle3-2 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 25px;
+    
+  }
+
+  .text-section3-2 h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  } 
+
+  .section4 {
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto 0;
+    color: #fff;
+    justify-content: center;
+    
+  }
+
+  .container-section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+  }
+
+  .img-section4 {
+    padding-bottom: 60px;
+    padding-top: 20px;
+    position: static;
+  }
+
+  .title4 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    color: #45214a;
+  }
+
+  .line5 {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #45214a;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .check-icon {
+    float: left;
+    padding-right: 15px;
+    align-items: center;
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  .check-icon1 {
+    float: right;
+    padding-left: 15px;
+    max-width: 60px;
+    max-height: 60px;
+  }
+ 
+  .container-check1 {
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+  }
+
+  .container-check01 {
+    display: flex;
+    text-align: right;
+    padding-bottom: 15px;
+    align-items: center;
+  }
+
+  
+
+  .subtitle4 {
+    max-width: 1200px;
+    display: flex;
+    max-width: 400px;
+    padding-top: 10px;
+    padding-left: 25px;
+    flex-wrap: wrap;
+    align-items: end;
+    padding-bottom: 40px;
+    
+  }
+
+  .subtitle5 {
+    max-width: 1200px;
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 25px;
+    flex-wrap: wrap;
+    align-items: end;
+    padding-left: 4%;
+    padding-bottom: 40px;
+    
+  }
+
+  .section5 {
+    background-color: #e3e3e3;
+    width: 100%;
+    margin: auto 0;
+    color: #fff;
+    justify-content: center;
+    
+  }
+
+  .container-section5{
+    max-width: 1200px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  .title5 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    color: #45214a;
+  }
+
+  .line5 {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #45214a;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .container-section5-check {
+    max-width: 250px;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 80px;
+    padding: 10px;
+  }
+
+  .contact {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: url(./assets/kevin-matos-Nl_FMFpXo2g-unsplash2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .title-contact {
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .contact-box{
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    filter: drop-shadow( 7px 7px 10px rgba(33, 33, 33, 0.3));
+    margin-bottom: 30px;
+    border: #fff;
+    border-radius: 14px;
+
+  }
+
+  .field {
+    width: 90%;
+    padding: 10px;
+    background-color: rgba(230, 230 ,230 ,0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+  }
+
+  .field:hover {
+    background-color: rgba(0, 0 ,0 ,0.1);
+  }
+
+  .field:focus{
+    background-color: #fff;
+    border: 2px solid #8c00ff
+  }
+
+  .area {
+    min-height: 150px;
+  }
+
+  .btn {
+    width: 94%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #0cb12a;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+    border-radius: 7px;
+  }
+
+  .btn:hover{
+    background-color: #45214a;
+  }
+
+  /* Style the footer */
+  footer {
+    background-color: #45214a;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    
+  }
+
+
+  .footer-box {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+
+  footer p {
+    color: #fff;
+    font-size: 0.8rem;
+  }
+
+  /* Make the website responsive */
+
+
+
+  @media all and (max-width:1025px) and (min-width:901px){
+
+    .text1 {
+      padding: 1.2rem;
+      font-size: 1.4rem;
+      max-width: 340px;
+      transform: translate(-180px);
+    }
+
+    .menu{
+      margin-right: 30px;
+    }
+
+.money-background{
+  transform: translate(-200px, 0.9mm);
+}
+
+    .box{
+      padding-bottom: 50px;
+      height: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      grid-gap: 20px;
+      max-width: 90%;
+    }
+
+    .card{
+      height: 240px;
+    }
+
+    .line3 {
+      margin-bottom: 40px;
+    }
+
+    .subtitle3 {
+      padding-left: 20px;
+      
+      margin-left: 20px;
+    }
+  }
+
+
+  @media all and (max-width:900px) {
+    body {
+      flex-wrap: wrap;
+      min-height: auto;
+    }
+
+    .menu {
+      display: none;
+    }
+
+    
+
+    .hamburger{
+      position: relative;
+      display: block;
+      width: 35px;
+      cursor: pointer;
+      appearance: none;
+      background: none;
+      outline: none;
+      border: none;
+      margin-right: 16px;
+    }
+  
+    .hamburger .bar, .hamburger:after, .hamburger:before  {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 5px;
+      background-color: #45214a;
+      margin: 6px 0px;
+      transition: 0.4s;
+    }
+
+    .hamburger.is-active:before {
+      transform: rotate(-45deg) translate(-8px, 6px);
+    }
+
+    .hamburger.is-active:after {
+      transform: rotate(45deg) translate(-9px, -8px);
+    }
+
+    .hamburger.is-active .bar {
+      opacity: 0;
+    }
+
+    .mobile-nav {
+      position: absolute;
+      display: block;
+      top: 10;
+      left: 100%;
+      width: 100%;
+      min-height: 35vh;
+      z-index: 98;
+      padding-top: 50px;
+      background-color: #45214a;
+      transition: 0.4s;
+    }
+
+    .mobile-nav.is-active {
+      left: 0;
+    }
+
+    .mobile-nav a{
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        margin-bottom: 16px;
+        padding: 20px 14px;
+        margin: 0 auto 16px;
+        list-style: none;
+        text-decoration: none;
+        font-size: 1.2rem;
+        background-color: #5a2e60;
+        color: #fff;
+    
+    }
+
+    .mobile-nav a:hover{
+      background-color: #8c00ff;
+    }
+    
+
+
+    .footer-box{
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+    footer p {
+      align-items: baseline;
+      justify-content: center;
+      margin: 0 auto;
+      padding-top: 1rem;
+    }
+
+    .section1 {
+      flex-wrap: wrap;
+      max-width: 100%;
+      background-image: url(./assets/harry-shelton-pPxhM0CRzl4-unsplash-mobile.jpg);
+      height: 550px;
+
+      
+    }
+
+    .text1 {
+      align-items: right;
+      padding-left: 2rem;
+      font-size: 1.2rem;
+      max-width: 100%;
+      
+    }
+
+    .line2 {
+      flex-wrap: wrap;
+    }
+
+    .text1 {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .money-background{
+      display: none;
+      
+    }
+
+    .line3 {
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+
+    }
+
+    .section2 {
+      flex-wrap: wrap;
+      min-height: auto;
+      max-width: 100%;
+      padding-bottom: 20px;
+    }
+
+    .section2 .card {
+      font-size: 1.3rem;
+      max-width: 90%;
+      align-items: center;
+
+    }
+
+    .section2 .card p {
+      font-size: 1.1rem;   
+
+    }
+
+    .box {
+      flex-wrap: wrap;
+  
+      max-width: 90%;
+      padding-bottom: 10px;
+      height: auto;
+    }
+      
+    .section3 {
+      flex-wrap: wrap;
+      min-height: 100%;
+    }
+
+    .container-section3 {
+      flex-wrap: wrap;
+      min-height: auto;
+      font-size: 1.1rem;
+    }
+
+    .subtitle3 {
+      padding-bottom: 20px;
+    }
+
+    .section4 {
+      flex-wrap: wrap;
+      min-height: auto;
+    }
+
+    .container-section4{
+      flex-wrap: wrap;
+      max-width: 100%;
+      min-height: auto;
+      align-items: center;
+      font-size: 1.1rem;
+    }
+
+    .container-check01 {
+      max-width: 90%;
+    }
+
+    .container-check1 {
+      max-width: 90%;
+    }
+
+    .section5 {
+      flex-wrap: wrap;
+      max-width: 100%;
+      min-height: auto;
+    }
+
+    .container-section5{
+      flex-wrap: wrap;
+      max-width: 100%;
+      min-height: 100%;
+      font-size: 1.1rem;
+
+      
+    }
+
+    .line5 {
+      margin-bottom: 10px;
+    }
+
+    .check-1 {
+      padding-top: 15px;
+    }
+
+    .subtitle3 {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+    }
+
+    .subtitle3-2 {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+    }
+
+    .title5 {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .title4 {
+      padding: 2rem;
+      text-align: center;
+  }
+
+  .contact{
+    background-image: url(./assets/kevin-matos-Nl_FMFpXo2g-unsplash2-mobile.jpg);
+  }
+ }
+

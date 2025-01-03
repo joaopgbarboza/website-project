@@ -112,7 +112,7 @@ header {
     padding: 1rem;
     padding-left: 5rem;
     font-size: 1.4rem;
-    max-width: 1200px;
+    max-width: 35%;
     color: #45214a;
   }
 
@@ -565,12 +565,12 @@ header {
 
 
 
-  @media all and (max-width:1025px) and (min-width:901px){
+  @media all and (max-width:1025px) and (min-width:910px){
 
     .text1 {
       padding: 1.2rem;
       font-size: 1.4rem;
-      max-width: 340px;
+      max-width: 30%x;
       transform: translate(-180px);
     }
 
@@ -604,6 +604,15 @@ header {
       
       margin-left: 20px;
     }
+
+    .container-section4 {
+      max-width: 95%;
+    }
+
+    .container-section5{
+      max-width: 95%;
+    }
+
   }
 
 
@@ -628,7 +637,7 @@ header {
       background: none;
       outline: none;
       border: none;
-      margin-right: 16px;
+      margin-right: 36px;
     }
   
     .hamburger .bar, .hamburger:after, .hamburger:before  {
@@ -697,6 +706,7 @@ header {
       align-items: center;
       justify-content: center;
       margin: 0 auto;
+      padding-left: 15%;
     }
 
     footer p {
@@ -719,7 +729,7 @@ header {
       align-items: right;
       padding-left: 2rem;
       font-size: 1.2rem;
-      max-width: 100%;
+      max-width: 60%;
       
     }
 
@@ -844,6 +854,11 @@ header {
       justify-content: center;
       text-align: center;
       
+    }
+
+    .subtitle5{
+      padding-left: 0;
+      margin-right: 5px;
     }
 
     .title5 {
